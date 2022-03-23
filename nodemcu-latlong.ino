@@ -9,7 +9,7 @@
 void setup()
 {
   Serial.begin(9600);
-  WiFi.begin("orko","12345678");  // add ssid and password here
+  WiFi.begin("Apel","12345678");  // add ssid and password here
 
   while(WiFi.status() !=WL_CONNECTED)
   {
